@@ -1,17 +1,20 @@
 **ExceptionReporting**
 ====================
 
-**About the Exception Reporting**
+##**About the Exception Reporting**
+
 This tool is a web-based form that is intended for the Georgia Tech Parking & Transportation managers to report problems on Georgia Tech Stingers and Trolleys. This tool is written with PHP, HTML, MySQL for database, and Bootstrap.js for front-end UI.
 
-**Setting up**
+##**Setting up**
+
 Clone the repository
 Setup localhost server on your machine with software such as WAMP/MAMP
 Copy all the files from the cloned repo and paste them into localhost server directory
 There is text file containing MySQL statements to create tables which will be used by Exception Reporting website. You can run the queries within phpmyadmin to create the database.
 You can now access the webpage. If using WAMP/MAMP through localhost, you can access the webpage by typing in localhost/error_reporting.php in your browser (assuming the port number is the default 8080).
 
-**How it works**
+##**How it works**
+
 This web tool is for the managers to report problems with Georgia Tech buses and trolleys. The webpage requires six fields, three of which are mandatory:
 
 - Date (required)
